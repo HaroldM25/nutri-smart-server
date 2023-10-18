@@ -19,7 +19,7 @@ router.use(
       httpOnly: false,
       path: '/',
       sameSite: 'none',
-      secure: true,
+      secure: false,
     },
   })
 );
