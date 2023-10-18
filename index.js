@@ -18,7 +18,7 @@ if (app.get('env') === 'production') {
 
 app.use(
   cors({
-    origin: ['https://nutri-smart-admin.vercel.app/','*'],
+    origin: ['https://nutri-smart-admin.vercel.app','*'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   })
