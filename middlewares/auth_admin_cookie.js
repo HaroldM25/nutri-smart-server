@@ -18,7 +18,7 @@ router.use(
       maxAge,
       httpOnly: false,
       path: '/',
-      sameSite: 'none',
+      sameSite: 'strict',
       secure: true,
     },
   })
